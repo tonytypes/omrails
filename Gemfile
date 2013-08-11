@@ -1,18 +1,14 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.12'
-
 gem 'jquery-rails'
-
 gem 'devise'
-
 gem 'simple_form'
-
 gem "paperclip", "~> 3.0"
-
 gem 'aws-sdk'
-
 gem 'faker'
+gem 'will_paginate', '~> 3.0'
+gem 'bootstrap-will_paginate'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
