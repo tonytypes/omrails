@@ -8,4 +8,9 @@ class User < ActiveRecord::Base
   # Setup accessible (or protected) attributes for your model
   attr_accessible :email, :password, :password_confirmation, :remember_me, :name
   # attr_accessible :title, :body
+
+  # This is a Rails association (Google it).
+  # This is saying a user can have many pins.
+  has_many :pins
+
 end
